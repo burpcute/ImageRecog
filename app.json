@@ -1,0 +1,11 @@
+{
+  "name": "imagerecog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "author": "",
+  "license": "ISC"
+}
