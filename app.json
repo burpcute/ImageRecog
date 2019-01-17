@@ -1,11 +1,35 @@
 {
   "name": "imagerecog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start"
+  "description": "Front End for Imagely Hackathon App (Clarifai + Spotify APIs)",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "website": "",
+  "repository": "https://github.com/freetoplayir/stream",
+  "logo": "https://freetoplayir.github.io/stream/logo.png",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    }
   },
-  "author": "",
-  "license": "ISC"
+  "image": "heroku/php",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "start": "react-scripts start"
+      }
+    }
+  }
 }
