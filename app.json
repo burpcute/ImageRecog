@@ -2,7 +2,7 @@
   "name": "imagerecog",
   "version": "1.0.0",
   "description": "",
-  "main": "node index.js",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start"
   },
