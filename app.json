@@ -7,7 +7,6 @@
     "scalpel"
   ],
   "website": "",
-  "repository": "https://github.com/freetoplayir/stream",
   "logo": "https://freetoplayir.github.io/stream/logo.png",
   "env": {
     "SECRET_TOKEN": {
